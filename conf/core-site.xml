@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+<name>fs.default.name</name>
+<value>hdfs://192.168.1.119:9000</value>
+</property>
+<property>
+<name>hadoop.tmp.dir</name>
+<value>/home/hadoopu/nbwork/tmpdir</value>
+</property>
+<property>
+<name>dfs.permissions</name>
+<value>false</value>
+</property>
+<property>
+<name>token_in_class_num_path</name>
+<value>hdfs://192.168.1.119:9000/user/hadoopu/trainout/part-r-00000</value>
+</property>
+<property>
+<name>class_file_num_path</name>
+<value>hdfs://192.168.1.119:9000/user/hadoopu/classfnum/part-r-00000</value>
+</property>
+</configuration>
